@@ -1,8 +1,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+# import routes
+from metacatalog_api import uuid
+
 # build app
 app = FastAPI()
+app.include_router(uuid.router, prefix='/uuid')
 
 #enable cors
 app.add_middleware(
