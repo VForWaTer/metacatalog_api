@@ -23,7 +23,7 @@ setup(
     name='metacatalog_api',
     author='Mirko Mälicke',
     author_email='mirko.maelicke@kit.edu',
-    version=version,
+    version=version(),
     description='Lightweight FastAPI server for metacatalog',
     long_description=readme(),
     long_description_content_type='text/markdown',
