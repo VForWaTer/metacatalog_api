@@ -2,7 +2,7 @@ name: Publish Metacatalog-API on PyPI and GHCR
 
 on: push
 
-job:
+jobs:
   
   # Create Github release
   release:
